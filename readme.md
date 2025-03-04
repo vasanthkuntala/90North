@@ -123,3 +123,19 @@ pip install -r requirements.txt && python manage.py migrate
 
 
 daphne -b 127.0.0.1 -p 8000 myproject.asgi:application
+
+
+
+
+
+all the endpoints
+for the websocket   wss://nine0north-r9id.onrender.com/ws/chat/
+
+for the authentication  https://nine0north-r9id.onrender.com/auth/google
+
+for the upload after getting the token -  https://nine0north-r9id.onrender.com/drive/upoad/
+in the body send the token and file as form data
+
+for the download  https://nine0north-r9id.onrender.com/drive/download/
+in the body send the token and file id as form data
+
