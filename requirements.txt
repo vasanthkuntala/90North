@@ -1,0 +1,11 @@
+Django==5.1.6
+djangorestframework
+channels
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+python-dotenv
+daphne
+django-extensions
+requests
