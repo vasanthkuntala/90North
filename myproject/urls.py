@@ -26,5 +26,5 @@ def debug_urls(request):
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('debug/urls/', debug_urls),
-    path('/', include('api.urls')),
+    path('', include('api.urls')),
 ]
